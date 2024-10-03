@@ -18,7 +18,7 @@ function Section({image, title, rightBtnText, headline}) {
       >
         {/* top */}
         <Fade bottom>
-        <div className="text-center flex flex-col items-center    ">
+        <div className="text-center flex flex-col items-center -space-y-3  ">
           {/* title */}
             {title=="Cybertruck"?
             (<img className='h-[65%] w-[90%] 
